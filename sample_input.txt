@@ -1,0 +1,20 @@
+=== VALID DATA SAMPLES ===
+Contact us at user@example.com or firstname.lastname@company.co.uk.
+Visit https://www.example.com or https://subdomain.example.org/page for details.
+Call support at (123) 456-7890, 123-456-7890, or 123.456.7890.
+Test payment cards: 1234 5678 9012 3456 and 1234-5678-9012-3456.
+Meeting scheduled at 14:30 or 2:30 PM (doors open at 09:15 am).
+HTML snippet: <p> <div class="example"> <img src="image.jpg" alt="description"> </p>
+Trending topics: #example #ThisIsAHashtag #ALU_Devs2026
+Prices: $19.99, $1,234.56, and $500.
+
+=== MALFORMED EDGE CASES (SHOULD BE IGNORED) ===
+Bad emails: user@.com, @missingusername.org, plainstring
+Bad URLs: ftp://wrongprotocol.com, http://invalid
+Bad phones: 12-345-6789, (123)4567890
+Bad cards: 1234-5678-9012, 12345678901234567890
+Bad times: 25:00, 14:65, 13:30 PM
+Bad tags: <123invalid>, <>
+Bad hashtags: #12345, email#@invalid
+Bad currency: $12,34.56, $.99
++2305647489
