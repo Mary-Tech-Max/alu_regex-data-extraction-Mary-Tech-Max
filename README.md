@@ -19,5 +19,5 @@ This project implements a Python-based regular expression engine designed to par
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/YourUsername/alu_regex-data-extraction-YourUsername.git](https://github.com/YourUsername/alu_regex-data-extraction-YourUsername.git)
+   git clone https://github.com/Mary-Tech-Max/alu_regex-data-extraction-Mary-Tech-Max.git
    cd alu_regex-data-extraction-YourUsername
